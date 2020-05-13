@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\john\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\john\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Creative 3D Generation.-1834832893.00" t="ExcludeRecursive" />
+    <e p="E:\John Stuff 2020\Unity Projects\CreativeGeneration3D\Creative 3D Generation" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BrokenVector" t="Include">
+          <e p="LowPolyTreePack" t="Include">
+            <e p="README.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="PyramidFractal.cs" t="Include" />
+          <e p="RoadGenerator.cs" t="Include" />
+          <e p="RoadLayout.cs" t="Include" />
+          <e p="TreeRecursion.cs" t="Include" />
+          <e p="TreeRecursionController.cs" t="Include" />
+          <e p="TreeRecursionRotation.cs" t="Include" />
+          <e p="TreeRecursionScale.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Creative 3D Generation.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
