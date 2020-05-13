@@ -13,6 +13,8 @@ public class PyramidFractal : MonoBehaviour
     private int depth;
 
     public float newScale;
+
+    public GameObject topMount;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class PyramidFractal : MonoBehaviour
             new GameObject("PyramidChild").AddComponent<PyramidFractal>().Initialize(this, Vector3.forward, Quaternion.Euler(0,0,0));
             new GameObject("PyramidChild").AddComponent<PyramidFractal>().Initialize(this, Vector3.back, Quaternion.Euler(-0,0,0));
         }
+       
     }
 
     private void Initialize(PyramidFractal parent, Vector3 direction, Quaternion orientation)
@@ -41,8 +44,6 @@ public class PyramidFractal : MonoBehaviour
         transform.localPosition = direction * (.5f + .5f * newScale);
         transform.localRotation = orientation;
         transform.localScale = Vector3.one * newScale;
-        
-        
     }
 
     // Update is called once per frame
